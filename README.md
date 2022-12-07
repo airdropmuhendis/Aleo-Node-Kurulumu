@@ -1,5 +1,22 @@
 <h1 align="center"> Aleo-Node-Kurulumu
 
+
+![image](https://assets-global.website-files.com/5e990b3c62a0fc1f2c268e7a/63886aa682d2a96dca123e05_Testnet%203%20Prover%20Incentives.png)
+
+## Aleo, tamamen özel uygulamalar sunan ilk platformdur. Aleo'nun amacı, web üzerinde özel uygulamalar oluşturmak, dağıtmak ve çalıştırmak için sağlam destek sunacak merkezi olmayan, açık kaynaklı bir ağ oluşturmaktır. Aleo'da özel uygulamaları kolay bir şekilde yazmak için Leo adında bir programlama dili geliştiriyorlar.
+
+## Bu rehberde sizlerle beraber Aleonun ödüllü olan Testnet 3 adımına katılacağız. Ödül için 25 milyon Aleo kredisi ayırılmış. Prover yanı burdaki kısım ödülün %30 veya 7,5 milyon krediye karşılık gelir. detaylara [burdan](https://www.aleo.org/post/testnet-3-incentives-kickoff) ulaşabilirsiniz.
+
+## Bu testnette garanti ödül yok yani katılan herkes ödül kazanmayacak ve sistem gereksinimleri çok yüksek olduğu için kurup kurmamak sizin kararınız. ödüller minning benzeri bir sistem olan kredi kazanma üzerine odaklanmış yani sisteminiz çok iyi olmalı. blok yakaladıkça kredi kazanırsınız bu krediler karşılığında ödül dağıtımı olacak.
+
+Sistem Gereksinimleri:
+
+- CPU: 16-cores (32-cores önerilen)
+- RAM: 16GB (32GB önerilen)
+- HDD: 128GB 
+- Network: 10 Mbps
+
+
   ## Root yetkisi almak için aşağğıdaki kodu giriyoruz bazı sunucularda bunu sürekli girmemiz gerekiyor. eğer bunu girmezseniz yazdığınız kodun başına sudo komutunu yazarkata devam edebilirsiniz ancak karışıklık olmaması için aşğıdaki komutu yazmanızı tavsiye ederim. ( root: Windows cihazlarda olduğu gibi yönetici olarak çalıştırmamıza, yani bize yetki veren bir komuttur.)
   ```
   sudo su
@@ -37,7 +54,7 @@ ufw allow 3033
 ufw enable
 ```
 
-
+Kurulum
 ```
 
 git clone https://github.com/AleoHQ/snarkOS.git --depth 1
@@ -62,10 +79,17 @@ screen -S client
 
 ./run-client.sh
 ```
+cüzdan oluşturma size vereceği bilgileri kaydedin
 ```
 snarkos account new
 ```
 ```
-
-screen -S prover  ./run-prover.sh
+screen -S prover 
 ```
+alttaki komuttan sonra sizden private key isteyecek az önce kaydettiğimiz bilgiler arasında private key bulunuyor onu yapıştırın.
+```
+./run-prover.sh
+```
+Nodenuz çalışmaya başladıktan sonra [burdan](https://www.aleo.network/) cüzdan adresinizi aratarak kredilerinizi görebilirsiniz.
+
+

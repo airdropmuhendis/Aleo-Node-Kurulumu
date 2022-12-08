@@ -84,7 +84,7 @@ screen -S client
 
 ./run-client.sh
 ```
-ctrl + A + D tuşlarıyla screenden cıkıyoruz
+ctrl + A + D tuşlarıyla screenden çıkıyoruz.
 cüzdan oluşturma size vereceği bilgileri kaydedin
 ```
 snarkos account new
@@ -96,7 +96,7 @@ alttaki komuttan sonra sizden private key isteyecek az önce kaydettiğimiz bilg
 ```
 ./run-prover.sh
 ```
-ctrl + A + D tuşlarıyla screenden cıkıyoruz
+ctrl + A + D tuşlarıyla screenden çıkıyoruz.
 
 Nodenuz çalışmaya başladıktan sonra [burdan](https://www.aleo.network/) cüzdan adresinizi aratarak kredilerinizi görebilirsiniz.
 

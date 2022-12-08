@@ -3,7 +3,10 @@
 
 ![image](https://assets-global.website-files.com/5e990b3c62a0fc1f2c268e7a/63886aa682d2a96dca123e05_Testnet%203%20Prover%20Incentives.png)
 
+
 ## Aleo, tamamen özel uygulamalar sunan ilk platformdur. Aleo'nun amacı, web üzerinde özel uygulamalar oluşturmak, dağıtmak ve çalıştırmak için sağlam destek sunacak merkezi olmayan, açık kaynaklı bir ağ oluşturmaktır. Aleo'da özel uygulamaları kolay bir şekilde yazmak için Leo adında bir programlama dili geliştiriyorlar.
+
+## Video [Linki](https://youtu.be/Gh8dX0xfA0g) 
 
 ## Bu rehberde sizlerle beraber Aleonun ödüllü olan Testnet 3 adımına katılacağız. Ödül için 25 milyon Aleo kredisi ayırılmış. Prover yanı burdaki kısım ödülün %30 veya 7,5 milyon krediye karşılık gelir. detaylara [burdan](https://www.aleo.org/post/testnet-3-incentives-kickoff) ulaşabilirsiniz.
 
@@ -81,6 +84,7 @@ screen -S client
 
 ./run-client.sh
 ```
+ctrl + A + D tuşlarıyla screenden cıkıyoruz
 cüzdan oluşturma size vereceği bilgileri kaydedin
 ```
 snarkos account new
@@ -92,6 +96,8 @@ alttaki komuttan sonra sizden private key isteyecek az önce kaydettiğimiz bilg
 ```
 ./run-prover.sh
 ```
+ctrl + A + D tuşlarıyla screenden cıkıyoruz
+
 Nodenuz çalışmaya başladıktan sonra [burdan](https://www.aleo.network/) cüzdan adresinizi aratarak kredilerinizi görebilirsiniz.
 
 
